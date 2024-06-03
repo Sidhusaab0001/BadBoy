@@ -64,11 +64,11 @@ async def ping_com(client, message: Message, _):
                 [
                     InlineKeyboardButton(
                         text="✦ ɢʀᴏᴜᴘ ✦",
-                        url=f"https://t.me/Devils_Hell_0",
+                        url=f"https://t.me/OWNER_TBS",
                     ),
                     InlineKeyboardButton(
-                        text="✧ ᴍᴏʀᴇ ✧",
-                        url=f"https://t.me/ll_THE_BAD_BOT_ll",
+                        text="✧ ᴏᴡɴᴇʀ ✧",
+                        url=f"https://t.me/SaqibADM",
                     ),
                 ],
                 [
