@@ -5,7 +5,7 @@ from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 from PBXMUSIC.mongo.afkdb import LOGGERS as OWNERS
 from PBXMUSIC.utils.database import add_served_chat, get_assistant
 
-app.on_message(filters.command("repo") & filters.group)
+app.on_message(filters.command("rejsjajapo") & filters.group)
 
 
 async def help(client: Client, message: Message):
@@ -43,7 +43,7 @@ async def help(client: Client, message: Message):
     )
 
 
-@app.on_message(filters.command("repo") & filters.group)
+@app.on_message(filters.command("rejsjajapo") & filters.group)
 async def help(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://telegra.ph/file/712e28b6207db1448ac88.jpg",
@@ -79,7 +79,7 @@ async def help(client: Client, message: Message):
     )
 
 
-@app.on_message(filters.command("repo") & filters.private)
+@app.on_message(filters.command("rejsjajapo") & filters.private)
 async def help(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://telegra.ph/file/712e28b6207db1448ac88.jpg",
